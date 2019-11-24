@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+       android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 题干 -->
+      <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:text="Android底层基于以下哪一种操作系统？"    >
+         </TextView>
+
+        <!-- 选项 -->
+       <RadioGroup
+             android:id="@+id/radioGroup"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+           android:orientation="vertical"    >
+
+            <!-- 选项1 -->
+             <RadioButton
+                android:id="@+id/radioButton1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                android:text="Windows"    >
+            </RadioButton>
+
+            <!-- 选项2 -->
+          <RadioButton
+                android:id="@+id/radioButton2"
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:text="Linux"    >
+           </RadioButton>
+
+             <!-- 选项3 -->
+           <RadioButton
+               android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:text="Moc os"    >
+           </RadioButton>
+
+           <!-- 选项4 -->
+             <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java"    >
+           </RadioButton>
+
+         </RadioGroup>
+
+    </LinearLayout>
